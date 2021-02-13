@@ -12,7 +12,7 @@ public class ExtentReporting {
     public static ExtentReports getExtentInstance() {
         if (extent == null) {
             htmlReporter = new ExtentSparkReporter(
-                    System.getProperty("user.dir") + "/test-output/screenshots/extentReport.html");
+                    System.getProperty("user.dir") + "/test-output/screenshots/AutomationReport.html");
 
             extent = new ExtentReports();
             extent.attachReporter(htmlReporter);

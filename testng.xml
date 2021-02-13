@@ -5,10 +5,8 @@
         <listener class-name="com.au.foxsports.utils.TestListener"></listener>
     </listeners>
     <test name="Test">
-
         <classes>
-
         <class name = "com.au.foxsports.test.FoxSportsTest" />
     </classes>
-
-</test></suite>
+    </test>
+</suite>
