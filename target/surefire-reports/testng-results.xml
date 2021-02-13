@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-13T06:19:35Z" name="All Test Suite" finished-at="2021-02-13T06:20:37Z" duration-ms="62125">
+    <groups>
+    </groups>
+    <test started-at="2021-02-13T06:19:35Z" name="Test" finished-at="2021-02-13T06:20:37Z" duration-ms="62125">
+      <class name="com.au.foxsports.test.FoxSportsTest">
+        <test-method is-config="true" signature="initiateDriver(org.testng.ITestContext)[pri:0, instance:com.au.foxsports.test.FoxSportsTest@152aa092]" started-at="2021-02-13T06:19:35Z" name="initiateDriver" finished-at="2021-02-13T06:19:43Z" duration-ms="8443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d247525]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method signature="validateArticlePage()[pri:0, instance:com.au.foxsports.test.FoxSportsTest@152aa092]" started-at="2021-02-13T06:19:43Z" name="validateArticlePage" finished-at="2021-02-13T06:19:56Z" duration-ms="13088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateArticlePage -->
+        <test-method is-config="true" signature="initiateDriver(org.testng.ITestContext)[pri:0, instance:com.au.foxsports.test.FoxSportsTest@152aa092]" started-at="2021-02-13T06:19:59Z" name="initiateDriver" finished-at="2021-02-13T06:20:07Z" duration-ms="7931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d247525]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.au.foxsports.test.FoxSportsTest@152aa092]" started-at="2021-02-13T06:19:59Z" name="tearDown" finished-at="2021-02-13T06:19:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatePlayAndPauseFeature()[pri:0, instance:com.au.foxsports.test.FoxSportsTest@152aa092]" started-at="2021-02-13T06:20:07Z" name="validatePlayAndPauseFeature" finished-at="2021-02-13T06:20:34Z" duration-ms="27024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlayAndPauseFeature -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.au.foxsports.test.FoxSportsTest@152aa092]" started-at="2021-02-13T06:20:37Z" name="tearDown" finished-at="2021-02-13T06:20:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.au.foxsports.test.FoxSportsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
