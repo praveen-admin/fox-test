@@ -1,3 +1,4 @@
-.idea
-.test-output
-.target
+.idea/
+.test-output/
+.target/
+.Foxsports.iml
