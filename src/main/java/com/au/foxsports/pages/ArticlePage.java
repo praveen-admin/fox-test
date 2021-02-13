@@ -5,6 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+/**
+ * POM class covers UI locators and functions for Article Page feature
+ *
+ * @author  Praveen R
+ * @version 1.0
+ * @since   2021-02-13
+ */
 public class ArticlePage extends BasePage {
 
     @FindBy(css = ".fnhmt__tbm")

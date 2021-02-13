@@ -7,6 +7,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * Base class contains Page initialization and common functions
+ *
+ * @author  Praveen R
+ * @version 1.0
+ * @since   2021-02-13
+ */
 
 public class BasePage {
 

@@ -5,6 +5,14 @@ import com.au.foxsports.pages.VideoPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ * The Fox sports tests implements 2 test cases for Video Play/Pause feature
+ * and article page verification
+ *
+ * @author  Praveen R
+ * @version 1.0
+ * @since   2021-02-13
+ */
 public class FoxSportsTest extends Base{
 
     VideoPage videoPage;

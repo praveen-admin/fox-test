@@ -8,6 +8,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
+/**
+ * POM class covers UI locators and functions for Video Play/Pause feature
+ *
+ * @author  Praveen R
+ * @version 1.0
+ * @since   2021-02-13
+ */
 public class VideoPage extends BasePage {
 
     @FindBy(xpath = "//a[contains(text(),'Video')]")
