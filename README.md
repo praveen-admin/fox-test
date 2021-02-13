@@ -1,4 +1,4 @@
-##FOXSports UI Coding challenge
+## FOXSports UI Coding challenge
 
 This UI Framework was developed using below components
  * Maven
