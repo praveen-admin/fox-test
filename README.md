@@ -12,12 +12,12 @@ This UI Framework was developed using below components
 
 ## How to run tests
 * mvn clean test (or) 
-* Navigate to Foxsports/src/test/java/com/au/foxsports/testFoxSportsTest.java and right click Run As > TestNG Test (or)
+* Navigate to Foxsports/src/test/java/com/au/foxsports/test/FoxSportsTest.java and right click Run As > TestNG Test (or)
 * Navigate to Foxsports/testng.xml and right click Run As > TestNG Suite
 
 ## Result
 * On completion of maven command (mvn clean test),reports will be generated in folder
-<<path-to-project-folder>>/test-output/screenshots/AutomationReport.html
+<path-to-project-folder>/test-output/screenshots/AutomationReport.html
 
 ##Things to Improve(if time permits):
 
