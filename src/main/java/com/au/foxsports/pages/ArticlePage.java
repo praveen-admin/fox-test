@@ -6,18 +6,17 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ArticlePage extends BasePage {
-  //  "//*[@id='🍔0📋2📋📑']/div[2]/div/ul/li[2]/a/span"
 
     @FindBy(css = ".fnhmt__tbm")
     WebElement hamburgerMnu;
 
-    @FindBy(css = ".fnhmbs--r > .fnhmbsi:nth-child(3) > .fnhmbsi__sl") // TODO: check football before click
+    @FindBy(xpath = "//*[@id='\uD83C\uDF54\uD83D\uDCD1']//*[@for='\uD83C\uDF540\uD83D\uDCCB2\uD83D\uDCCB\uD83D\uDE2E']")
     WebElement footballLnk;
 
-    @FindBy(xpath = "//*[@id='\uD83C\uDF540\uD83D\uDCCB2\uD83D\uDCCB\uD83D\uDCD1']/div[2]/div/ul/li[2]/a/span") // TODO: check latest news before click
+    @FindBy(xpath = "//*[@id='\uD83C\uDF540\uD83D\uDCCB2\uD83D\uDCCB\uD83D\uDCD1']/div[2]/div/ul/li[2]/a/span")
     WebElement latestNewLnk;
 
-    @FindBy(xpath = "//*[@id='foxsports_row_habitual-1638']/div[1]/div/div[1]/article/header/p/a") // TODO: make it dynamic Ray
+    @FindBy(xpath = "(//article)[1]//a[@class='article-snippet__header-link']")
     WebElement articleLnk;
 
     @FindBy(css = ".fiso-article-story__page-title")
@@ -26,7 +25,8 @@ public class ArticlePage extends BasePage {
     @FindBy(xpath = "(.//*[@class='fiso-article-captioned-figure__image'])[1]")
     WebElement articleImg;
 
-    @FindBy(xpath = "//*[@id=\"fiso-article-page-1\"]/article/div/div[1]/p[1]") // TODO: make it dynamic Ray
+    @FindBy(xpath = "//*[@id=\"fiso-article-page-1\"]//div[@class='fiso-article-body']/p[1]")
+
     WebElement articleContent;
 
     boolean flag;
